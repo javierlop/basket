@@ -1,0 +1,11 @@
+entity Item {
+	name String,
+	price Long,
+	is3x2 Boolean
+}
+
+entity OrderLine {
+	number Integer,
+	total Long
+}
+

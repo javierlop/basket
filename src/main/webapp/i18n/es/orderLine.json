@@ -1,0 +1,24 @@
+{
+    "basketApp": {
+        "orderLine" : {
+            "home": {
+                "title": "Order Lines",
+                "createLabel": "Crear nuevo Order Line",
+                "createOrEditLabel": "Crear o editar Order Line",
+                "search": "Search for Order Line"
+            },
+            "created": "Un nuevo Order Line ha sido creado con el identificador {{ param }}",
+            "updated": "Un Order Line ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Order Line ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Order Line {{ id }}?"
+            },
+            "detail": {
+                "title": "Order Line"
+            },
+            "number": "Number",
+            "total": "Total",
+            "item": "Item"
+        }
+    }
+}

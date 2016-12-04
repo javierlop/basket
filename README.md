@@ -1,15 +1,16 @@
 # basket
 
-This application has been developed by Javier Lopez using JHipster application generator.
-To run the application:
- 1- go to the application directory: basket.
- 2- run "gradlew"
- 3- go in your browser to http://localhost:8080/
+This application has been developed by Javier Lopez using JHipster application generator.<br><br>
+To run the application:<br>
+ 1- go to the application directory: basket.<br>
+ 2- run "gradlew"<br>
+ 3- go in your browser to http://localhost:8080/<br><br>
  
-There is a demo available in:
+There is a demo available in:<br>
 
-You can fin de UML data model in:
-
+You can find the UML data model in:<br>
+https://jhipster.github.io/jdl-studio/#/view/entity%20Item%20%7B%0A%09name%20String,%0A%09price%20Long,%0A%20%20%20%20is3x2%20Boolean%0A%7D%0A%0Aentity%20OrderLine%20%7B%0A%09number%20Integer,%0A%20%20%20%20totalOrderLine%20Long%0A%7D%0A%0Aentity%20Basket%20%7B%0A%09totalPrice%20Long%0A%7D%0A%0Arelationship%20OneToOne%20%7B%0A%09OrderLine%7Bof%7D%20to%20Item%0A%7D%0A%0Arelationship%20OneToMany%20%7B%0A%09Basket%7Bcontain%7D%20to%20OrderLine%0A%7D
+<br>
 
 
 This application was generated using JHipster 3.10.0, you can find documentation and help at [https://jhipster.github.io/documentation-archive/v3.10.0](https://jhipster.github.io/documentation-archive/v3.10.0).
