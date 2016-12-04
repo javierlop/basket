@@ -1,7 +1,7 @@
 # basket
 
 This application has been developed by Javier Lopez using JHipster application generator.<br><br>
-To run the application:<br>
+To run the application:<br><br><br>
  1- go to the application directory: basket.<br>
  2- run "gradlew"<br>
  3- go in your browser to http://localhost:8080/<br><br>
