@@ -8,6 +8,10 @@ To run the application:<br>
  
 There is a demo available in:<br>
 
+https://youtu.be/z_XnWbTBy8U
+
+<br>
+
 You can find the UML data model in:<br>
 https://jhipster.github.io/jdl-studio/#/view/entity%20Item%20%7B%0A%09name%20String,%0A%09price%20Long,%0A%20%20%20%20is3x2%20Boolean%0A%7D%0A%0Aentity%20OrderLine%20%7B%0A%09number%20Integer,%0A%20%20%20%20totalOrderLine%20Long%0A%7D%0A%0Aentity%20Basket%20%7B%0A%09totalPrice%20Long%0A%7D%0A%0Arelationship%20OneToOne%20%7B%0A%09OrderLine%7Bof%7D%20to%20Item%0A%7D%0A%0Arelationship%20OneToMany%20%7B%0A%09Basket%7Bcontain%7D%20to%20OrderLine%0A%7D
 <br>
